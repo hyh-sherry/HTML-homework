@@ -40,39 +40,31 @@
 
     <div class="container">
             <div class="row">
-                <div class="col-md-8 col-md-12">
-                    <h1>Summary: Latitude vs. X</h1>
+                <div class="col-md-8">
+                    <h1>Max Temperature</h1>
                     <hr>
                     <p> 
-                        <img class="Landing_img" src="Images/lat_vs_temp.png" alt="city latitude vs max temp"></p>
-                    <p class="Landing_text">The purpose of this project was to analyze how weather changes as you get closer
-                        to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap
-                        API to assemble a dataset on over 500 cities.
-                    </p>
-                    <br>
-                    <p class="Landing_text">After assembling the dataset, we used Matplotlib to plot various aspects of weather
-                        vs. latitude. Factors we looked at included:temperature, cloudiness, wind speed, 
-                        and humidity. This site provides the source data and visualizations created as part
-                        of the analysis, as well as explanations and descriptions of any trends and correlations
-                         witnessed.
+                        <img src="Images/lat_vs_temp.png" alt="city latitude vs max temp"></p>
+                    <p>At the time this dataset is being selected, wind speed is generally less than
+                        20 mph in most cities, with 4 outliers with wind speed between 30 mph to 40 mph.
                     </p>
                 </div>
-                <div class="col-md-4 col-md-12">
+                <div class="col-md-4">
                     <h3>Visualizations</h3>
                     <div class="row">
                         <div class="col-md-6 col-md-3 Landing_img">
-                            <img width=200 src="Images/lat_vs_temp.png">
+                            <a href="temp.html"><img width=200 src="Images/lat_vs_temp.png"></a>
                         </div>
                         <div class="col-md-6 col-md-3 Landing_img">
-                            <img width=200 src="Images/lat_vs_humidity.png">
+                            <a href="humidity.html"><img width=200 src="Images/lat_vs_humidity.png"></a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-md-3 Landing_img">
-                            <img width=200 src="Images/lat_vs_cloudiness.png">
+                            <a href="cloudiness.html"><img width=200 src="Images/lat_vs_cloudiness.png"></a>
                         </div>
                         <div class="col-md-6 col-md-3 Landing_img">
-                            <img width=200 src="Images/lat_vs_wind.png">
+                            <a href="wind_speed.html"><img width=200 src="Images/lat_vs_wind.png"></a>
                         </div>
                     </div>
                 </div>
