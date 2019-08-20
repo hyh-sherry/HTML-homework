@@ -1,5 +1,5 @@
 .navbar{
-    overflow: hidden;
+    overflow: visible;
     background-color: white;
     padding: 10px;
 }
@@ -17,6 +17,11 @@
 
 .navbar li a{
     color: rgb(119, 117, 117);
+}
+
+.btn{
+    color: rgb(119, 117, 117);
+    font-size: 20px;
 }
 
 #Landing_Page{
@@ -53,6 +58,7 @@
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.15);
     border-radius: .25rem;
+    overflow: visible;
 }
 
 .dropdown-item{
@@ -102,4 +108,19 @@ img{
 
 .Landing_text{
     margin-top: 10px;
+}
+
+th{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+td{
+    text-align: right;
+    padding:15px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
