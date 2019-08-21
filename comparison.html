@@ -16,15 +16,20 @@
 
 <body>
 
-    <div class="container">
-        <nav class="navbar">
-            <ul>
-                <li>
-                    <a id="Landing_Page" href="index.html">Latitude</a></li>
+    <nav class="navbar navbar-expand-md">
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="container-fluid collapse navbar-collapse" id="collapse_target">
+            <div class="navbar-header">
+                <a class= "navbar-header" id="Landing_Page" href="index.html">Latitude</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
                     <button class="nav-link btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Plots
-                    <span class="caret"></span></button>
+                        Plots<span class="caret"></span></button>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <li><a class="dropdown-item" href="temp.html">Max Temperature</a></li>
                         <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
@@ -32,12 +37,12 @@
                         <li><a class="dropdown-item" href="wind_speed.html">Wind Speed</a></li>
                     </ul>
                 </li>
-                <li><a class="navbar_right" href="data_page.html">Data</a></li>
-                <li><a class="navbar_right" href="comparison.html">Comparison</a></li>
+                <li class="navbar_item"><a href="data_page.html">Data</a></li>
+                <li class="navbar_item"><a href="comparison.html">Comparison</a></li>
             </ul>
-        </nav>
-    </div>
-
+        </div>
+    </nav>
+    <br>
     <div class="container">
         <h2>Comparison: Latitude vs X</h2>
         <hr>
@@ -46,11 +51,11 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-sm-12 col-md-12 col-lg-6">
                 <h3>vs. Max Temperature</h3>
                 <a href="temp.html"><img src="Images/lat_vs_temp.png" alt="lat_vs_temp"></a>
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-12 col-md-12 col-lg-6">
                 <h3>vs. Humidity</h3>
                 <a href="humidity.html"><img src="Images/lat_vs_humidity.png" alt="lat_vs_humidity"></a>
             </div>
@@ -61,11 +66,11 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-sm-12 col-md-12 col-lg-6">
                 <h3>vs. Cloudiness</h3>
                 <a href="cloudiness.html"><img src="Images/lat_vs_cloudiness.png" alt="lat_vs_cloudiness"></a>
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-12 col-md-12 col-lg-6">
                 <h3>vs. Wind Speed</h3>
                 <a href="wind_speed.html"><img src="Images/lat_vs_wind.png" alt="lat_vs_wind"></a>
             </div>
